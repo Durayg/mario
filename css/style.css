@@ -571,6 +571,18 @@ body{
         top: 20%;
         left: 1.5%;
     }
+    
+    .text{
+        font-size: 1.3rem;
+        top: 38%;
+        left: 1.4%;
+    }
+
+    .text2{
+        font-size: 1.2rem;
+        top: 43%;
+        left: 5.5%;
+    }
 
     @keyframes box{
         0% {
