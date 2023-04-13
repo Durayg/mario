@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-page" id="page1">
+            <audio autoplay controls src="music/music.mp3">
+
+            </audio>
+            <div class="logo">
+
+            </div>
+            <h1 class="text">
+                Scroll, or press down on keyboard
+            </h1>
+            <h2 class="text2">
+                To move Mario
+            </h2>
+            <div class="pipe">
+            
+            </div>
+            <div class="tree">
+
+            </div>
+            <div class="platforms" id="platform1">
+
+            </div>
+            <div class="platforms" id="platform2">
+
+            </div>
+            <div class="platforms" id="platform3">
+
+            </div>
+            <div class="grass">
+                
+            </div>
+            <div class="box">
+                <div class="mushroom">
+
+                </div>
+            </div>
+            <div class="coins coin1">
+                <div id="coin1">
+
+                </div>
+            </div>
+            <div class="coins coin2">
+                <div id="coin2">
+
+                </div>
+            </div>
+            <div class="coins coin3">
+                <div id="coin3">
+
+                </div>
+            </div>
+            <div class="coins coin4">
+                <div id="coin4">
+
+                </div>
+            </div>
+            <div class="coins coin5">
+                <div id="coin5">
+
+                </div>
+            </div>
+            <div class="coins coin6">
+                <div id="coin6">
+
+                </div>
+            </div>
+            <div class="coins coin7">
+                <div id="coin7">
+
+                </div>
+            </div>
+            <div class="coins coin8">
+                <div id="coin8">
+
+                </div>
+            </div>
+            <div class="goomba1">
+                
+            </div>
+            <div class="goomba2">
+                
+            </div>
+        </div>
+        <div class="game-page" id="page2">
+    
+        </div>
+        <div class="game-page" id="page3">
+    
+        </div>
+        <div class="cloud">
+            
+        </div>
+        <div class="mario-outline">
+            <div class="mario">
+                
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        
+    </div>
+   <script>
+    window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }, false);
+   </script>
+    <script src="javas/app.js"></script>
+</body>
+</html>
